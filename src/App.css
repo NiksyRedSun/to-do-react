@@ -134,6 +134,7 @@
     display: flex;
     align-items: center;
     gap: 10px; /* расстояние между кнопками */
+    margin: 0 0 1% 0;
 }
 
 .complete-selected-button,
@@ -169,4 +170,31 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.actions-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* расстояние между кнопками */
+    width: 100%;
+}
+
+.actions-buttons button {
+    background-color: #f44336; /* Красный цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 33%;
+}
+
+.actions-buttons button:hover {
+    background-color: #d32f2f; /* Темнее при наведении */
+}
+
+.todo-input.duplicate {
+    border: 1px solid red;
+    color: red;
 }
