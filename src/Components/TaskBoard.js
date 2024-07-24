@@ -42,7 +42,7 @@ export const TaskBoard = () => {
         }
         if (canceledTasks) {
             let tasks = canceledTasks.split('\n');
-            setTaskInProgress(tasks);
+            setTaskCanceled(tasks);
         }
     };
 
